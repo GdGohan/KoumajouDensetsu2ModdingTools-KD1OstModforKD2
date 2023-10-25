@@ -3,7 +3,7 @@ tools(test):it's not working for kd2
 
 patcher.py:Python(creates a launcher called kd2modlauncher.exe to load the "modf" folder)
 
-DgVoodoo2:https://github.com/dege-diosg/dgVoodoo2/releases
+dgVoodoo2:https://github.com/dege-diosg/dgVoodoo2/releases
 
 DX Archive:
 http://web.archive.org/web/20230817132313/http://wiki.xentax.com/index.php/DX_Archive
