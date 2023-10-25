@@ -1,5 +1,5 @@
 # KoumajouDensetsu2ModdingTools-KD1OstMod
-tools(test):it's not working for kd2
+tools(test):it's not working for kd2(only kd2descrypt/encrypt codes work fine)
 
 patcher.py:Python(creates a launcher called kd2modlauncher.exe to load the "modf" folder)
 
