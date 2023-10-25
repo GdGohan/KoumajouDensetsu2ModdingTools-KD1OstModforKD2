@@ -1,0 +1,49 @@
+//BGMの定義　wavファイル名,サンプル始点,サンプル終点,曲名
+[bgm]
+bgm_total=42
+
+//システム、プレイヤー系
+bgm_0=bgm_0.ogg,0,10000,無音
+bgm_1=s_frst1.ogg,1535746,6110187,clockwork_doll　-Killer Maid Style-（ステージ１_森）
+bgm_2=s_frst2.ogg,1860118,8034117,麗しき紅の城主 -Style of Bloody Destiny-（ステージ2_エントランス）
+bgm_3=s_entr.ogg,639937,4646736,Grave Cave（ステージ３ 地下墓地）
+bgm_4=s_doll.ogg,3192172,7558071,奪われた大図書館（ステージ４蔵書庫）
+bgm_5=s_batlf.ogg,1686248,5919847,Ghost Scimitar（ステージ５）
+bgm_6=s_lib.ogg,1331972,5239909,Scarlet Tears -SR Style-（ステージ６）
+bgm_7=s_clock.ogg,837900,5247899,絆を胸に（ステージ７）
+bgm_8=s_last.ogg,1135413,3329791,静寂 -SR Style-（ステージ８）
+bgm_9=s_extra.ogg,1234847,5617719,（StagePH）
+bgm_10=bgm_10.ogg,-----------------------------
+bgm_11=b_chlno.ogg,1494752,5516671,Prism Heart -SR Style-（アリスのテーマ）
+bgm_12=b_melin.ogg,565448,5328248,Cat Blast!（橙のテーマ）
+bgm_13=b_comon.ogg,1118901,3850256,桜花一閃（妖夢のテーマ）
+bgm_14=b_alice.ogg,1762204,8769541,Star Wizard（魔理沙のテーマ）
+bgm_15=b_suika.ogg,1098069,4920476,乾坤の巫女 -Orchestral Style-（霊夢のテーマ）
+bgm_16=b_patc.ogg,4251061,10123504,倒錯する狂気（藍テーマ）
+bgm_17=b_sak.ogg,761535,5663597,口寄せる骸（幽々子のテーマ）
+bgm_18=b_remi.ogg,3397648,8001686,霧染のアムネイジア -Orchestral Style-（レミリア第一戦のテーマ）
+bgm_19=b_flan.ogg,1630847,7234139,Last Phantasm (紫のテーマ)
+bgm_20=lastbat.ogg,1914036,5221490,薔薇殺しのカーミラ（ラストバトル歌）
+bgm_21=clear.ogg,586536,586536,Stage Clear（ステージクリア）
+bgm_22=over.ogg,340738,340738,gameover（ゲームオーバー）
+bgm_23=end.ogg,786173,5404632,パートナーセレクト
+bgm_24=theme_s.ogg,761535,5663597,
+bgm_25=anbi_1.ogg,352800,1146600,環境音_森
+bgm_26=anbi_2.ogg,1146600,1940400,環境音_威圧
+//bgm_27=bgm_0.ogg-----------------------------
+//bgm_28=bgm_0.ogg-----------------------------
+//bgm_29=bgm_0.ogg-----------------------------
+//bgm_30=bgm_0.ogg-----------------------------
+bgm_31=bgm_31.ogg,2127400,8477800,prologue（シナリオ・プロローグ）
+bgm_32=bgm_32.ogg,769745,6927710,an Encounter（シナリオ・緊迫）
+bgm_33=bgm_33.ogg,1613800,6553000,afraid -Free Style-（オマケ1＆2）
+bgm_34=bgm_34.ogg,853000,5080320,Scarlet Tears -Free Style-（オマケ汎用4＆4）
+//bgm_35=bgm_0.ogg-----------------------------
+//bgm_36=bgm_0.ogg-----------------------------
+//bgm_37=bgm_0.ogg
+//bgm_38=bgm_0.ogg
+//bgm_39=bgm_0.ogg
+bgm_40=bgm_40.ogg,12800000,12800000,fatal bite（エンディング）
+bgm_41=bgm_41.ogg,4903856,4903856,紫焉（エンディングPH）
+
+
