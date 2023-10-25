@@ -14,4 +14,4 @@ how to modify:
 use DXExtract to extract the .dat files, after that you have two options: back up the "data" folder and move the extracted folders to it (moving the .dat files to another place).
 Or use the patcher (needs to be in the same folder as koumajou2.exe)
 and move the extracted folders to the modf folder (if necessary, create it, it must be in the same folder as the exe)
-patcher.py:Python
+patcher.py:Python(creates a launcher called kd2modlauncher.exe to load the "modf" folder)
