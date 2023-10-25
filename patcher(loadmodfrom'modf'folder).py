@@ -8,10 +8,13 @@ def modify_exe_string(exe_path):
     # Substitui "data\\" por "modf\\"
     modified_data = exe_data.replace(b'data\\', b'modf\\')
 
+    # Substitui "config.ini" por "confmf.ini"
+    modified_data2 = modified_data.replace(b'config.ini', b'confmf.ini')
+
     # Cria um novo arquivo EXE com a string modificada
     new_exe_path = "kd2modlauncher.exe"
     with open(new_exe_path, 'wb') as new_exe_file:
-        new_exe_file.write(modified_data)
+        new_exe_file.write(modified_data2)
 
     return new_exe_path
 
