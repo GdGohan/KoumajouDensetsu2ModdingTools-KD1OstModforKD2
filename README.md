@@ -1,5 +1,5 @@
 # KoumajouDensetsu2ModdingTools-KD1OstMod
-DXTools(test):it's not working for kd2
+tools(test):it's not working for kd2
 
 DX Archive:
 http://web.archive.org/web/20230817132313/http://wiki.xentax.com/index.php/DX_Archive
