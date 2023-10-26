@@ -10,7 +10,7 @@ patcher:creates a launcher called kd2modlauncher.exe to load the "modf" folder a
 
 customlang/v2:switch between custom languages ​​(v2 loads the custom language folders in the modf/language folder).Open config.exe to select "custom" language
 
-dgVoodoo2:https://github.com/dege-diosg/dgVoodoo2/releases
+dgVoodoo2:https://github.com/dege-diosg/dgVoodoo2/releases copy the files from the MS/x86 folder and paste them into the game folder
 
 DX Archive:
 http://web.archive.org/web/20230817132313/http://wiki.xentax.com/index.php/DX_Archive
