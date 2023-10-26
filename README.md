@@ -3,6 +3,8 @@ tools(test):it's not working for kd2(only kd2descrypt/encrypt codes work fine)
 
 patcher.py:Python(creates a launcher called kd2modlauncher.exe to load the "modf" folder)
 
+customlang/v2:switch between custom languages ​​(v2 loads the custom language folders in the modf/language folder)
+
 dgVoodoo2:https://github.com/dege-diosg/dgVoodoo2/releases
 
 DX Archive:
