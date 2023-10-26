@@ -6,7 +6,7 @@ py:Python
 
 tools(test):it's not working for kd2(only kd2descrypt/encrypt codes work fine)
 
-patcher:creates a launcher called kd2modlauncher.exe to load the "modf" folder and confmf.ini file
+patcher:creates a launcher called kd2modlauncher.exe to load the "modf" folder and confmf.ini file(instead of loading the "data" folder and the config.ini file)
 
 customlang/v2:switch between custom languages ​​(v2 loads the custom language folders in the modf/language folder).Open config.exe to select "custom" language
 
