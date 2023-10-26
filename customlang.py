@@ -7,7 +7,7 @@ previous_language = None
 selected_language_label = None  # Adicione uma variável para o rótulo de idioma selecionado
 
 def select_language_folder(selected_language):
-    folder_path = filedialog.askdirectory(title="Selecione a pasta de idioma")
+    folder_path = filedialog.askdirectory(title="Select language folder")
     if folder_path:
         update_language_list(folder_path, selected_language)
 
@@ -45,7 +45,7 @@ def main():
 
     selected_language = tk.StringVar()
 
-    select_button = tk.Button(window, text="Selecione a pasta de idioma", command=lambda: select_language_folder(selected_language))
+    select_button = tk.Button(window, text="Select language folder", command=lambda: select_language_folder(selected_language))
     select_button.pack()
 
     languages_list = tk.Listbox(window)
