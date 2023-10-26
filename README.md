@@ -18,6 +18,8 @@ https://himeworks.com/tools/dxextract/
 
 https://ulmf.org/threads/dx-library-archive-tools.10275/
 
+DXExtract:extract and move DXExtract.exe to DXtools folder
+
 how to modify:
 use DXExtract to extract the .dat files, after that you have two options: back up the "data" folder and move the extracted folders to it (moving the .dat files to another place).
 
