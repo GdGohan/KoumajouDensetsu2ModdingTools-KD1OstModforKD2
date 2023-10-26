@@ -1,4 +1,7 @@
 # KoumajouDensetsu2ModdingTools-KD1OstMod
+DXExtract:https://himeworks.com/tools/dxextract/
+extract and move DXExtract.exe to DXtools folder
+
 py:Python
 
 tools(test):it's not working for kd2(only kd2descrypt/encrypt codes work fine)
@@ -14,11 +17,7 @@ http://web.archive.org/web/20230817132313/http://wiki.xentax.com/index.php/DX_Ar
 
 http://web.archive.org/web/20230603222550/https://dxlib.xsrv.jp/dxdload.html
 
-https://himeworks.com/tools/dxextract/
-
 https://ulmf.org/threads/dx-library-archive-tools.10275/
-
-DXExtract:extract and move DXExtract.exe to DXtools folder
 
 how to modify:
 use DXExtract to extract the .dat files, after that you have two options: back up the "data" folder and move the extracted folders to it (moving the .dat files to another place).
