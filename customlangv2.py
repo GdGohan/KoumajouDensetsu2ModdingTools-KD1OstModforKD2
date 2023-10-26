@@ -69,7 +69,7 @@ def main():
         languages_list = tk.Listbox(window)
         languages_list.pack()
 
-        select_button = tk.Button(window, text="Selecionar idioma", command=lambda: select_language(selected_language))
+        select_button = tk.Button(window, text="Select Language", command=lambda: select_language(selected_language))
         select_button.pack()
 
         load_languages()
