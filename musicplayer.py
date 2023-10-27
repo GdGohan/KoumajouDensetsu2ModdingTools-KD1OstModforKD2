@@ -63,7 +63,7 @@ def play_music(selected_music, progress_bar):
     loop_start = selected_music["loop_start"]
     loop_end = selected_music["loop_end"]
     pygame.mixer.music.play()
-    progress_bar.config(to=1.1)  # Configurar a barra de progresso para 0-1
+    progress_bar.config(to=1.0)  # Configurar a barra de progresso para 0-1
 
 def pause_music():
     pygame.mixer.music.pause()
@@ -82,7 +82,7 @@ def reset_music_to_start():
 def check_end_sample():
     global music_playing
     while music_playing:
-        current_time = pygame.mixer.music.get_pos() / 1000.0
+        current_time = pygame.mixer.music.get_pos() / 1400.0
         if current_time >= loop_end:
             # Chame a função para resetar a música ao ponto de início
             reset_music_to_start()
@@ -90,14 +90,14 @@ def check_end_sample():
 def update_progress(progress_bar):
     while True:
         if music_playing:
-            progress = pygame.mixer.music.get_pos() / 1000.0
+            progress = pygame.mixer.music.get_pos() / 1400.0
             progress_percentage = progress / (loop_end - loop_start)
             progress_bar.set(progress_percentage)
             
-            if progress_percentage >= 1.0:
-                pygame.mixer.music.set_pos(loop_start)  # Definir a posição de reprodução para o início do loop
+            if progress_percentage >= 0.99:
                 play_selected_music()
-
+                pygame.mixer.music.set_pos(loop_start)  # Definir a posição de reprodução para o início do loop
+                
 if __name__ == "__main__":
     music_info = load_music_info()
     music_files = load_music_files(music_info)
