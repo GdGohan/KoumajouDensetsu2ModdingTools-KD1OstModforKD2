@@ -17,9 +17,9 @@ def update_language_list(folder_path, selected_language):
     selected_language.set(folder_path)
 
     if previous_language:
-        os.rename(os.path.join("modf/language", "custom"), previous_language)
+        os.rename(os.path.join("data/language", "custom"), previous_language)
 
-    custom_path = os.path.join("modf/language", "custom")
+    custom_path = os.path.join("data/language", "custom")
     os.rename(folder_path, custom_path)
 
     previous_language = folder_path
@@ -32,8 +32,8 @@ def update_language_list(folder_path, selected_language):
 
 def load_languages():
     languages_list.delete(0, tk.END)
-    for language in os.listdir("modf/language"):
-        language_path = os.path.join("modf/language", language)
+    for language in os.listdir("data/language"):
+        language_path = os.path.join("data/language", language)
         if os.path.isdir(language_path):
             languages_list.insert(tk.END, language)
 
