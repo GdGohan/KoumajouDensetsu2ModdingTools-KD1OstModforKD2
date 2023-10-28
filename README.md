@@ -4,7 +4,7 @@ extract and move DXExtract.exe to DXtools folder
 
 py:Python
 
-musicplayer:pip install pygame
+musicplayer:pip install pygame, pip install pillow
 
 tools(test):it's not working for kd2(only kd2descrypt/encrypt codes work fine)
 
