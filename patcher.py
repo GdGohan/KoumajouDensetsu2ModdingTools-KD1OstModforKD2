@@ -14,8 +14,8 @@ def modify_exe_string(exe_path, custom_name):
     # Converta o nome personalizado em bytes usando UTF-8
     custom_name_bytes = custom_name.encode('utf-8')
 
-    # Substitui "custom" pelo nome personalizado fornecido pelo usuário
-    modified_data3 = modified_data2.replace(b'Custom', custom_name_bytes)
+    # Substitui "Francais" pelo nome personalizado fornecido pelo usuário
+    modified_data3 = modified_data2.replace(b'Francais', custom_name_bytes)
 
     # Cria um novo arquivo EXE com a string modificada
     new_exe_path = "kd2modlauncher.exe"
@@ -26,7 +26,7 @@ def modify_exe_string(exe_path, custom_name):
 
 def main():
     exe_path = "koumajou2.exe"
-    custom_name = input("Write the name of the custom language(must have a maximum of 6 characters): ")
+    custom_name = input("Write the name of the custom language(must have 8 characters): ")
     new_exe_path = modify_exe_string(exe_path, custom_name)
     print(f"The modified EXE has been created at {new_exe_path}")
 
