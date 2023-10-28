@@ -26,7 +26,7 @@ def modify_exe_string(exe_path, custom_name):
 
 def main():
     exe_path = "koumajou2.exe"
-    custom_name = input("Write the name of the custom language: ")
+    custom_name = input("Write the name of the custom language(must have a maximum of 6 characters): ")
     new_exe_path = modify_exe_string(exe_path, custom_name)
     print(f"The modified EXE has been created at {new_exe_path}")
 
