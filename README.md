@@ -4,7 +4,7 @@ extract and move DXExtract.exe to DXtools folder
 
 py:Python
 
-musicplayer:pip install pygame, pip install pillow
+musicplayer:pip install pygame, pip install pillow(loads files from the "modf/bgm" folder, and opens the bgmlist.txt file from the "modf/define" folder)
 
 tools(test):it's not working for kd2(only kd2descrypt/encrypt codes work fine)
 
