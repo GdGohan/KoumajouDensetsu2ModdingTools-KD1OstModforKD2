@@ -1,6 +1,6 @@
 import os
 
-def modify_exe_string(exe_path, custom_name):
+def modify_exe_string(exe_path):
     # Abre o arquivo EXE original para leitura de bytes binários
     with open(exe_path, 'rb') as exe_file:
         exe_data = exe_file.read()
@@ -23,7 +23,6 @@ def modify_exe_string(exe_path, custom_name):
 
 def main():
     exe_path = "koumajou2.exe"
-    custom_name = input("Write the name of the custom language(must have 8 characters): ")
     new_exe_path = modify_exe_string(exe_path, custom_name)
     print(f"The modified EXE has been created at {new_exe_path}")
 
