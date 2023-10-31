@@ -23,7 +23,7 @@ def modify_exe_string(exe_path):
 
 def main():
     exe_path = "koumajou2.exe"
-    new_exe_path = modify_exe_string(exe_path, custom_name)
+    new_exe_path = modify_exe_string(exe_path)
     print(f"The modified EXE has been created at {new_exe_path}")
 
 if __name__ == "__main__":
